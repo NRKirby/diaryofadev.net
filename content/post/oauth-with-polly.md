@@ -3,10 +3,11 @@ title: "OAuth with Polly"
 author: "Nick Kirby"
 url: "/2017/05/oath-with-polly/"
 date: 2017-05-01T07:37:36+01:00
+image: "http://www.thepollyproject.org/content/images/2016/10/Polly-Logo@2x.png"
 draft: false
 ---
 
-## Using transient library Polly to manage OAuth access token logic
+<a href="http://www.thepollyproject.org/" title="The Polly Project" target="_blank"><img src="http://www.thepollyproject.org/content/images/2016/10/Polly-Logo@2x.png" alt"Polly Logo" style="margin: 0 auto;"></a>
 
 Polly is a resilience and transient-fault-handling library written in C# which makes expressing well-known connection policies such as Retry, Circuit Breaker (and more) incredibly easy.
 
@@ -68,3 +69,9 @@ The way I see it there are 2 clear benefits of using Polly to define policies:
 
 1. Policies are reusable – we can make calls through a policy wherever we need , rather than having conditional checks everywhere in our code.
 2. Expressiveness – the core logic of what we are trying to do becomes more expressive / declarative.
+
+## Links
+
+- [The Polly Project](http://www.thepollyproject.org/)
+- [Polly (GitHub)](https://github.com/App-vNext/Polly)
+- [Polly Samples](https://github.com/App-vNext/Polly-Samples)
