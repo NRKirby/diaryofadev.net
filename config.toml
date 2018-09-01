@@ -124,7 +124,8 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  # TODO
+  # description = "Hugo tranquilpeak theme demo"
 
   # Customization
   # Define the behavior of the sidebar
@@ -164,7 +165,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/favicon.ico"
 
   # Header configuration
   # The link at the right of the header is customizable
