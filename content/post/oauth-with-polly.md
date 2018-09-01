@@ -64,7 +64,7 @@ retry.ExecuteAsync() => // the call we want to make using the policy
 
 ## Why? 
 
-The way I see it there are 2 clear benefits using Polly to define policies:
+The way I see it there are 2 clear benefits of using Polly to define policies:
 
 1. Policies are reusable – we can make calls through a policy wherever we need , rather than having conditional checks everywhere in our code.
 2. Expressiveness – the core logic of what we are trying to do becomes more expressive / declarative.
