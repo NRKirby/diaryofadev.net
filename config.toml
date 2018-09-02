@@ -130,7 +130,7 @@ canonifyurls = true
   hierarchicalCategories = true
 
   # TODO
-  # description = "Hugo tranquilpeak theme demo"
+  description = "Learnings of a software developer"
 
   # Customization
   # Define the behavior of the sidebar
