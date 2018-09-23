@@ -4,6 +4,7 @@ author: "Nick Kirby"
 url: "/2018/09/behind-the-tech/"
 date: 2018-09-01T12:25:10+01:00
 image: "https://secureimg.stitcher.com/feedimageswide/480x270_185630.jpg"
+tags: ['podcast']
 draft: false
 ---
 

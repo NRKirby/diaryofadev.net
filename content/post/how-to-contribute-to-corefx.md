@@ -5,6 +5,7 @@ url: "/how-to-contribute-to-corefx/"
 date: 2018-09-15T07:37:36+01:00
 image: "https://avatars0.githubusercontent.com/u/9141961?s=400&v=4"
 draft: false
+tags: ['OSS']
 ---
 
 [CoreFX](https://github.com/dotnet/corefx) is a repo containing the open-source class libraries for .NET core. The CoreFX repo is huge (containing over 15,000 C# classes) and the aim of this blog post is to bring together much of the information needed to get started contributing. 
