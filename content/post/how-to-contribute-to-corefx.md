@@ -9,7 +9,7 @@ draft: false
 
 [CoreFX](https://github.com/dotnet/corefx) is a repo containing the open-source class libraries for .NET core. The CoreFX repo is huge (containing over 15,000 C# classes) and the aim of this blog post is to bring together much of the information needed to get started contributing. 
 
-CoreFX is made up of 1000’s of classes which many .NET developer depend upon on a daily basis such as the classes in the `System.Collections` namespaces.
+CoreFX is made up of 1000’s of classes which many .NET developers depend on a daily basis, such as the classes in the `System.Collections` namespaces.
 
 > Note: Some classes that you’d expect to be in CoreFX such as String and List are actually in [mscorlib](https://github.com/dotnet/coreclr/tree/master/src/System.Private.CoreLib) in the [CoreCLR](https://github.com/dotnet/coreclr). These types (and others) live in mscorlib as they are intrinsically linked to the CLR and need to be accessed from native CLR code. If you’re interested, see [this document on mscorlib](https://github.com/dotnet/coreclr/blob/master/Documentation/botr/mscorlib.md) from [The Book of the Runtime](https://github.com/dotnet/coreclr/tree/master/Documentation/botr) for more details.
 
@@ -64,7 +64,7 @@ build System.Collections
 
 - Contributions are made through the usual pull request model on GitHub and (at time of writing) there are over 2000 [open issues](https://github.com/dotnet/corefx/issues). 
 - People new to the project should probably check out the [easy label](https://github.com/dotnet/corefx/labels/easy) which contains many issues for improving test coverage making them a great way to get familiar to the project without too much knowledge of the contribution workflow. If you do pick up a code coverage issue the [code coverage doc](https://github.com/dotnet/corefx/blob/master/Documentation/building/code-coverage.md) and [code coverage report](https://ci.dot.net/job/dotnet_corefx/job/master/job/code_coverage_windows/Code_Coverage_Report/) will definitely come in handy. 
-- When you've found an issue or you need help you can [find the area owners here](https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/issue-guide.md#areas) or contact [@karelz](https://github.com/karelz) or [@danmosemsft(https://github.com/danmosemsft)].
+- When you've found an issue or you need help you can [find the area owners here](https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/issue-guide.md#areas) or contact [@karelz](https://github.com/karelz) or [@danmosemsft](https://github.com/danmosemsft).
 
    
 
