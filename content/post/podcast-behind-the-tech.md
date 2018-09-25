@@ -1,10 +1,12 @@
 ---
-title: "Podcast: Behind The Tech"
+title: "Behind The Tech With Kevin Scott"
 author: "Nick Kirby"
-url: "/2018/09/behind-the-tech/"
+url: "/behind-the-tech-with-kevin-scott/"
 date: 2018-09-01T12:25:10+01:00
 image: "https://secureimg.stitcher.com/feedimageswide/480x270_185630.jpg"
 tags: ['podcast']
+aliases:
+- /2018/09/behind-the-tech/
 draft: false
 ---
 
