@@ -24,7 +24,7 @@
   translation: "About"
 
 - id: "global.author_picture"
-  translation: "Author's picture"
+  translation: "An image of author Nick Kirby"
 
 - id: "global.share_on"
   translation: "Share on %s"

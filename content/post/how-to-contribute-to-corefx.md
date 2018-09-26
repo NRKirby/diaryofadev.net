@@ -41,7 +41,7 @@ Now that’s out of the way let's see how we can get started contributing!
 
 The [Dev Workflow](https://github.com/dotnet/buildtools/blob/master/Documentation/Dev-workflow.md) describes the development process for the repo. 
 
-![alt text](https://github.com/dotnet/buildtools/raw/master/Documentation/images/Dev-workflow.jpg "CoreFX development workflow")
+![An image of the CoreFX development workflow](https://github.com/dotnet/buildtools/raw/master/Documentation/images/Dev-workflow.jpg "CoreFX development workflow")
 
 ### 3. The Developer Guide
 

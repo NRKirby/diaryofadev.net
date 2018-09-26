@@ -10,7 +10,7 @@ aliases:
 draft: false
 ---
 
-<a href="http://www.thepollyproject.org/" title="The Polly Project" target="_blank"><img src="http://www.thepollyproject.org/content/images/2016/10/Polly-Logo@2x.png" alt"Polly Logo" style="margin: 0 auto;"></a>
+<a href="http://www.thepollyproject.org/" title="The Polly Project" target="_blank"><img src="http://www.thepollyproject.org/content/images/2016/10/Polly-Logo@2x.png" alt="Polly Logo" style="margin: 0 auto;"></a>
 
 Polly is a resilience and transient-fault-handling library written in C# which makes expressing well-known connection policies such as Retry, Circuit Breaker (and more) incredibly easy.
 
