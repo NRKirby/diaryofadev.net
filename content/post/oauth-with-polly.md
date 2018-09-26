@@ -4,6 +4,7 @@ author: "Nick Kirby"
 url: "/2017/05/oath-with-polly/"
 date: 2017-05-01T07:37:36+01:00
 image: "http://www.thepollyproject.org/content/images/2016/10/Polly-Logo@2x.png"
+description: Polly is a resilience and transient-fault-handling library written in C#. Learn how to use the C# library Polly to help implement OAuth refresh token logic.
 aliases:
 - /2017/05/01/using-polly-for-oauth-access-token-logic/
 draft: false

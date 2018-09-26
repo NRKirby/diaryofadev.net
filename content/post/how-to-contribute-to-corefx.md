@@ -4,6 +4,7 @@ author: "Nick Kirby"
 url: "/getting-started-contributing-to-corefx/"
 date: 2018-09-15T07:37:36+01:00
 image: "https://avatars0.githubusercontent.com/u/9141961?s=400&v=4"
+description: The CoreFX repo is huge (over 15,000 C# classes)and the aim of this blog post is to bring together much of the information needed to get started contributing. 
 tags: ['OSS']
 aliases:
 - /how-to-contribute-to-corefx/

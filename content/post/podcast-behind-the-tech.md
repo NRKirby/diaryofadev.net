@@ -4,6 +4,7 @@ author: "Nick Kirby"
 url: "/behind-the-tech-with-kevin-scott/"
 date: 2018-09-01T12:25:10+01:00
 image: "https://secureimg.stitcher.com/feedimageswide/480x270_185630.jpg"
+description: Behind The Tech is a podcast from Microsoft CTO Kevin Scott. The focus of the podcast is on the people who make a difference to the world with technology. 
 tags: ['podcast']
 aliases:
 - /2018/09/behind-the-tech/
