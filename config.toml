@@ -21,6 +21,7 @@ disqusShortname = "diaryofadev"
 googleAnalytics = "UA-63521630-2"
 paginate = 7
 canonifyurls = true
+enableRobotsTXT = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
