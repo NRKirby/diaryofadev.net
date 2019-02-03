@@ -16,17 +16,19 @@ Polly is a resilience and transient-fault-handling library written in C# which m
 
 I had to write a client library for consuming a 3rd-party API and found myself writing conditional checks for whether the access token expired, the code ended up looking a bit like this:
 
-```
-var response = await httpClient.GetAsync(someApiEndPoint)
+<pre>
+    <code class="cs">
+        var response = await httpClient.GetAsync(someApiEndPoint)
  
-if (response.StatusCode == HttpStatusCode.Unauthorized)
-    RefreshAccessToken();
- 
-response = await httpClient.GetAsync(someApiEndPoint);
- 
-if (response.StatusCode == HttpStatusCode.Unauthorized)
-    throw new ExpiredRefreshTokenException();
-```
+        if (response.StatusCode == HttpStatusCode.Unauthorized)
+            RefreshAccessToken();
+
+        response = await httpClient.GetAsync(someApiEndPoint);
+
+        if (response.StatusCode == HttpStatusCode.Unauthorized)
+            throw new ExpiredRefreshTokenException(); 
+    </code>
+</pre>
 
 As you can see this is pretty messy – there are 2 conditional checks dealing with either the access token expiring or the refresh token expiring.
 
@@ -42,29 +44,33 @@ One of the policy primitives available is called **Retry** which, as you would e
 
 We can express the logic above as a policy easily, like this:
 
-```
-var retry = Policy
-        .HandleResult(r => r.StatusCode == HttpStatusCode.Unauthorized)
-        .RetryAsync(2, async (exception, retryCount) =>
-        {
-            // access token expired
-            if (retryCount == 1)
-            {
-                await RefreshAccessToken();
-            }
-            // refresh token expired
-            if (retryCount == 2)
-            {
-                throw new ExpiredRefreshTokenException();
-            }
-        });
-```
+<pre>
+    <code class="cs">
+        var retry = Policy
+                        .HandleResult(r => r.StatusCode == HttpStatusCode.Unauthorized)
+                        .RetryAsync(2, async (exception, retryCount) =>
+                        {
+                            // access token expired
+                            if (retryCount == 1)
+                            {
+                                await RefreshAccessToken();
+                            }
+                            // refresh token expired
+                            if (retryCount == 2)
+                            {
+                                throw new ExpiredRefreshTokenException();
+                            }
+                        });
+    </code>
+</pre>
 
 Now we can make any API endpoint calls using this policy like this:
 
-```
-retry.ExecuteAsync() => // the call we want to make using the policy
-```
+<pre>
+    <code class="cs">
+        retry.ExecuteAsync(() => DoSomething())
+    </code>
+</pre>
 
 ## Why? 
 

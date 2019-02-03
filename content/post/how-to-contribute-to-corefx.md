@@ -52,17 +52,21 @@ Examples:
 
 **Full clean build and test:**
 
-```
-clean -all
-build
-build-tests
-```
+<pre>
+    <code class="console">
+        clean -all
+        build
+        build-tests    
+    </code>
+</pre>
 
 **Build an individual library and test:**
 
-```
-build System.Collections
-```
+<pre>
+    <code class="console">
+        build System.Collections  
+    </code>
+</pre>
 
 ### 4. Find something to work on
 

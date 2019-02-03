@@ -79,7 +79,6 @@
     <!--EXTERNAL STYLES END-->
     <!--STYLES-->
     <link rel="stylesheet" href="/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
-    <!--STYLES END-->
     {{ range .Site.Params.customCSS }}
       {{ if isset . "href" }}
         <link {{ if not (isset . "rel") }}rel="stylesheet" {{ end }}{{ range $key, $value := . }} {{ if eq $key "href" }}{{ (printf "%s=\"%s\"" $key ($value | absURL)) | safeHTMLAttr }}{{ else }}{{ (printf "%s=\"%s\"" $key (string $value)) | safeHTMLAttr }}{{ end }}{{ end }}>
@@ -87,6 +86,11 @@
         <link rel="stylesheet" href="{{ . | absURL }}">
       {{ end }}
     {{ end }}
+    <link rel="stylesheet" href="/css/vs2015.min.css" />
+    <script src="/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!--STYLES END-->
+    
 
     {{ if .Params.ga.async }}
       {{ template "_internal/google_analytics_async.html" . }}
@@ -95,3 +99,4 @@
     {{ end }}
     {{ partial "head_end.html" . }}
   </head>
+ 
