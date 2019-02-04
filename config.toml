@@ -36,7 +36,7 @@ enableRobotsTXT = true
   #bio = "Super bio with markdown support **COOL**"
   job = "Software Developer"
   location = "Shrewsbury, UK"
-  picture = "https://i.imgur.com/T1mT39O.jpg"
+  picture = "/img/avatar.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "nrkirby"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
