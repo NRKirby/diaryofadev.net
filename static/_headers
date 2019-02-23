@@ -4,3 +4,4 @@
  Referrer-Policy: no-referrer
  X-Content-Type-Options: nosniff
  Content-Security-Policy: frame-ancestors 'none'
+ Feature-Policy: vibrate 'none'
