@@ -12,7 +12,7 @@ draft: false
 
 App settings and connection strings are an important part of any CI pipeline. Over the years I've seen sites been brought down because an incorrect app setting got swapped from staging to production when it shouldn't have. 
 
-In Azure there's a **SLOT SETTING** checkbox by every app setting and connection strinh. This is used to control how settings move (or not) when staging and production get swapped. 
+In Azure there's a **SLOT SETTING** checkbox by every app setting and connection string. This is used to control how settings move (or not) when staging and production get swapped. 
 
 <img src="https://diaryofadev.blob.core.windows.net/images/slot-setting.JPG" alt="Azure slot setting" style="width: 40%;margin: 0 auto;">
 
