@@ -5,3 +5,12 @@
  X-Content-Type-Options: nosniff
  Content-Security-Policy: frame-ancestors 'none'
  Feature-Policy: vibrate 'none'
+
+/img/*
+ Cache-Control: public, s-max-age=604800
+
+/*.css 
+ Cache-Control: public, s-max-age=604800
+
+/*.js 
+ Cache-Control: public, s-max-age=604800
