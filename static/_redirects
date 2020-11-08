@@ -1,0 +1,10 @@
+/rss/                                   /index.xml                      301
+/rss.xml/                               /index.xml                      301           
+/atom.xml                               /index.xml                      301
+/feed/index.atom                        /index.xml                      301
+/feed                                   /index.xml                      301
+/feed.xml                               /index.xml                      301
+
+/category/uncategorized/                /categories                     301
+/author/nrkirby/                        /#about                         301
+/2017/05/                               /                               301
